@@ -1,0 +1,51 @@
+.backendContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 20px 60px;
+}
+
+.backendInfo {
+  font-size: 45px;
+}
+
+.backendHeader {
+  font-size: 100px;
+}
+
+.backendDetails {
+  margin-bottom: 20px;
+}
+
+.backendImage {
+  width: 25%;
+  height: 50%;
+  object-fit: cover;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+
+/* Animation */
+
+@media (max-width: 1100px) {
+  .backendContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .backendHeader {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .backendDetails {
+    font-size: 30px;
+  }
+
+  .backendImage {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+  }
+}
