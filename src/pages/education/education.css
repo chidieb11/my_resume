@@ -1,0 +1,122 @@
+.eduContainer {
+  padding: 20px 60px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eduImage {
+  width: 50%;
+  margin-right: 200px;
+}
+
+.eduTitle {
+  font-size: 150px;
+}
+
+.subTitle {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.eduBackground {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.eduSection {
+  flex-direction: column;
+}
+
+.unnBadge {
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.sectionTitle {
+  font-size: 80px;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.sectionCard {
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
+.educationImages {
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Animation */
+.scale-in-center {
+  animation: scale-in-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes scale-in-center {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 1100px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .eduImage {
+    width: 100%;
+  }
+
+  .eduTitle {
+    font-size: 60px;
+    white-space: nowrap;
+  }
+
+  .subTitle {
+    font-size: 25px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .eduBackground {
+    font-size: 30px;
+  }
+
+  .unnBadge {
+    width: 80%;
+  }
+
+  .sectionCard {
+    margin-left: 0;
+  }
+
+  .educationImages {
+    width: 100%;
+  }
+
+  .sectionTitle {
+    font-size: 35px;
+    white-space: nowrap;
+  }
+
+  .eduSection {
+    flex-direction: column;
+  }
+}

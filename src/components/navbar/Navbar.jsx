@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -19,14 +20,26 @@ const Navbar = () => {
   return (
     <div className="navContainer">
       <div className="section">
-        <div className="logo">Chidiebere 👋</div>
+        <Link to="/">
+          <div className="logo">Chidiebere 👋</div>
+        </Link>
         {(toggleMenu || screenWidth > 1100) && (
           <ul className="listItems">
-            <li className="listItem active">Home</li>
-            <li className="listItem">Education</li>
-            <li className="listItem">Experience</li>
-            <li className="listItem">Projects</li>
-            <li className="listItem">Contact Me</li>
+            <Link to="/">
+              <li className="listItem active">Home</li>
+            </Link>
+            <Link to="/education">
+              <li className="listItem">Education</li>
+            </Link>
+            <Link to="/experience">
+              <li className="listItem">Experience</li>
+            </Link>
+            <Link to="/projects">
+              <li className="listItem">Projects</li>
+            </Link>
+            <Link to="/contact">
+              <li className="listItem">Contact Me</li>
+            </Link>
           </ul>
         )}
         <button onClick={toggleNav} className="navBtn">

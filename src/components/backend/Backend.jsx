@@ -4,7 +4,7 @@ import Img from "../../resources/images/inspiration.svg";
 
 const Backend = () => {
   return (
-    <div>
+    <div className="scale-in-center">
       <div className="backendContainer">
         <div className="backendInfo">
           <h2 className="backendHeader">Backend 🏗️</h2>

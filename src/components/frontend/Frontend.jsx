@@ -4,7 +4,7 @@ import Img from "../../resources/images/static_website.svg";
 
 const Frontend = () => {
   return (
-    <div>
+    <div className="scale-in-center">
       <h1 className="frontendTitle">What I do</h1>
       <div className="frontendContainer tracking-in-expand">
         <img className="frontendImage" src={Img} alt="computer person" />

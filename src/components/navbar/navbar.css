@@ -19,6 +19,11 @@
   font-size: 30px;
 }
 
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
 .logo {
   cursor: pointer;
 }

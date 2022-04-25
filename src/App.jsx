@@ -1,21 +1,18 @@
 import React from "react";
-import Hero from "./components/hero_section/Hero";
-import Navbar from "./components/navbar/Navbar";
-import Frontend from "./components/frontend/Frontend";
-import Backend from "./components/backend/Backend";
-import Footer from "./components/footer/Footer";
-import DbCloud from "./components/cloud/DbCloud";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Education from "./pages/education/Education";
+import Experience from "./pages/experience/Experience";
+import Home from "./pages/home/Home";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Frontend />
-      <Backend />
-      <DbCloud />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="education" element={<Education />} />
+        <Route path="experience" element={<Experience />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
