@@ -1,85 +1,94 @@
 .experienceContainer {
+  display: flex;
+  justify-content: space-between;
   padding: 20px 60px;
 }
 
-.personalDetails {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.experienceImg {
+  width: 100%;
+  margin-right: 200px;
 }
 
-.experienceImage {
-  width: 100vw;
+.experienceInfo {
+  font-size: 45px;
 }
 
-.experienceDetails {
-  margin-left: 200px;
-}
-
-.experienceHeading {
+.experienceHeader {
   font-size: 100px;
 }
 
-.experienceSubHeading {
-  font-size: 80px;
+.experienceDetails {
+  margin-bottom: 20px;
 }
 
-.qualification {
-  font-size: 30px;
-  display: block;
-  object-fit: cover;
-  margin-bottom: 30px;
-}
-
-.byteworks_badge {
-  width: 50%;
-  height: 30%;
+.contactSocials i {
+  margin-right: 20px;
   cursor: pointer;
 }
 
-.certs {
-  margin-top: 50px;
-  font-size: 80px;
-}
-
-.certImages {
-  display: flex;
-  justify-content: space-between;
-}
-
-.byteworks_badge {
-  margin-top: 30px;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.experienceImage {
+  padding: 10px;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
   cursor: pointer;
+  background: none;
+  font-weight: 600;
 }
 
-/* media queries */
+/* Animation */
+.scale-in-center {
+  animation: scale-in-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes scale-in-center {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Media Query */
 @media (max-width: 1100px) {
-  .personalDetails {
+  .experienceContainer {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .experienceImg {
+    width: 90%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .experienceHeader {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .experienceSubHeader {
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .experienceDetails {
+    display: block;
+    font-size: 30px;
+    padding: 40px;
   }
 
   .experienceImage {
-    width: 100%;
-    padding: 10px 20px;
-  }
-
-  .experienceHeading {
-    font-size: 80px;
-    white-space: nowrap;
-    margin-right: 180px;
-  }
-
-  .experienceSubHeading {
-    font-size: 40px;
-    font-weight: 600;
-  }
-
-  .qualification {
-    font-size: 30px;
     margin-top: 20px;
-    inline-size: 300px;
-    overflow-wrap: break-word;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
