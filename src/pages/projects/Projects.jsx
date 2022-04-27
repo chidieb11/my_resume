@@ -42,8 +42,8 @@ const Projects = () => {
             <img className="cardImage" src={Personal} alt="" />
             <h4 className="cardTitle">Portfolio</h4>
             <p className="cardDetail">
-              Portfolio was one of the pet projects I built while I was
-              practicing on one the weekends. The goal was to build a kind of
+              This portfolio web app was one of the pet projects I built while I
+              was practicing on one of the weekends. The goal was to build a
               single page portfolio app.
             </p>
           </div>
@@ -51,8 +51,8 @@ const Projects = () => {
             <img className="cardImage" src={Shop} alt="" />
             <h4 className="cardTitle">Shop</h4>
             <p className="cardDetail">
-              Shop was a project I worked on while taking my first course on
-              ReactJs.
+              This shop app was a project I worked on while taking my first
+              course in my early days of learning to use the ReactJs library.
             </p>
           </div>
         </div>
