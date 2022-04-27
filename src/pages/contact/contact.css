@@ -1,0 +1,133 @@
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.contactImg {
+  width: 100%;
+  margin-right: 200px;
+}
+
+.contactInfo {
+  font-size: 45px;
+}
+
+.contactHeader {
+  font-size: 100px;
+}
+
+.contactDetails {
+  margin-bottom: 20px;
+}
+
+.contactSocials i {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.contactBtn {
+  padding: 10px;
+  outline: none;
+  border: 1px solid #ffc83d;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  background: none;
+  font-weight: 600;
+}
+
+.contactBtn:hover {
+  background: #001233;
+  color: whitesmoke;
+}
+
+/* Second section */
+.secondSection {
+  margin-top: 100px;
+}
+
+/* last section */
+.thirdSecond {
+  margin-top: 100px;
+}
+.lastImg {
+  width: 50%;
+}
+
+.phone_no {
+  white-space: nowrap;
+}
+
+/* Animation */
+.scale-in-center {
+  animation: scale-in-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes scale-in-center {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Media Query */
+@media (max-width: 1100px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .contactImg {
+    width: 90%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .contactHeader {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .contactDetails {
+    display: block;
+    font-size: 30px;
+    padding: 40px;
+  }
+
+  .contactSocials {
+    margin-top: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactBtn {
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-bottom: 0;
+    background: none;
+    font-weight: 600;
+  }
+
+  .contactBtn:hover {
+    background: #001233;
+    color: whitesmoke;
+  }
+
+  /* Second section */
+  .secondSection {
+    flex-direction: column-reverse;
+  }
+
+  .ssecondBtn {
+    margin-top: 0;
+  }
+}

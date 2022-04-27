@@ -11,9 +11,8 @@ const Frontend = () => {
         <div className="frontendInfo">
           <h2 className="frontendHeader">Frontend 🍽️</h2>
           <p className="frontendDetails">
-            Though I am just starting out, I build highly scalable products
-            using HTML, CSS, JavaScript and ReactJs that are fully mobile
-            responsive.
+            I build highly scalable products using HTML, CSS, JavaScript and
+            ReactJs that are fully mobile responsive.
           </p>
         </div>
       </div>
