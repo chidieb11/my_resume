@@ -31,7 +31,7 @@ const Contact = () => {
         </div>
       </div>
       {/* Second section */}
-      <div className="secondSection contactContainer">
+      <div className="secondSection contactContainer scale-in-center">
         <div className="contactInfo">
           <h2 className="contactHeader">Blog 📑</h2>
           <p className="contactDetails">
@@ -44,7 +44,7 @@ const Contact = () => {
         <img className="contactImg" src={Blog} alt="computer person" />
       </div>
       {/* Last Section */}
-      <div className="thirdSecond contactContainer">
+      <div className="thirdSecond contactContainer scale-in-center">
         <img
           className="contactImg lastImg"
           src={Address}
