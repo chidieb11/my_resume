@@ -14,6 +14,7 @@
 
 .eduTitle {
   font-size: 150px;
+  white-space: nowrap;
 }
 
 .subTitle {

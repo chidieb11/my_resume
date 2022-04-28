@@ -15,6 +15,7 @@
 
 .contactHeader {
   font-size: 100px;
+  white-space: nowrap;
 }
 
 .contactDetails {
@@ -24,6 +25,7 @@
 .contactSocials i {
   margin-right: 20px;
   cursor: pointer;
+  color: #000;
 }
 
 .contactBtn {

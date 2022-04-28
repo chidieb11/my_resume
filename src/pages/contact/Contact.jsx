@@ -20,14 +20,40 @@ const Contact = () => {
             JavaScript, React, Node, and Opensource Development.
           </p>
           <div className="contactSocials">
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-solid fa-mailbox"></i>
+            <a href="https://twitter.com/weird_codes" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://github.com/chidieb11" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://mail.google.com" target="_blank">
+              <i class="fa-solid fa-envelope-circle-check"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/chukwu-chidiebere-662a761a9/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a
+              href="https://web.facebook.com/chukwu.john.39142"
+              target="_blank"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/chukwu.john.39142/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
           </div>
-          <button className="contactBtn">See My Resume 📰</button>
+          <a
+            href="https://docs.google.com/document/d/1h3MJ6sq-PozX1v29WUUxHBmgIoFNrxqKkuOsxiXyUfY/edit"
+            target="_blank"
+          >
+            <button className="contactBtn">See My Resume 📰</button>
+          </a>
         </div>
       </div>
       {/* Second section */}
