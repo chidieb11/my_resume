@@ -65,7 +65,12 @@ const Contact = () => {
             lessons that create impact on each of the reader individually to
             change the core of their character.
           </p>
-          <button className="contactBtn ssecondBtn">Visit My Blog 🥰</button>
+          <a
+            href="https://dev.to/chidieb11/my-journey-so-far-on-learning-to-write-the-mern-stack-50b5"
+            target="_blank"
+          >
+            <button className="contactBtn ssecondBtn">Visit My Blog 🥰</button>
+          </a>
         </div>
         <img className="contactImg" src={Blog} alt="computer person" />
       </div>
