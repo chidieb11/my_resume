@@ -31,7 +31,12 @@ const Projects = () => {
 
         <div className="projectCards">
           <div className="card">
-            <img className="cardImage" src={Product} alt="" />
+            <a
+              href="https://chidieb11.github.io/Product_landing_page/"
+              target="_blank"
+            >
+              <img className="cardImage" src={Product} alt="" />
+            </a>
             <h4 className="cardTitle">Trombone</h4>
             <p className="cardDetail">
               Trombone is one of the recommended final projects from the
@@ -39,7 +44,12 @@ const Projects = () => {
             </p>
           </div>
           <div className="card">
-            <img className="cardImage" src={Personal} alt="" />
+            <a
+              href="https://chidieb11.github.io/genesysPortfolioPage/public/index.html"
+              target="_blank"
+            >
+              <img className="cardImage" src={Personal} alt="" />
+            </a>
             <h4 className="cardTitle">Portfolio</h4>
             <p className="cardDetail">
               This portfolio web app was one of the pet projects I built while I
@@ -48,7 +58,9 @@ const Projects = () => {
             </p>
           </div>
           <div className="card">
-            <img className="cardImage" src={Shop} alt="" />
+            <a href="https://neon-granita-f09293.netlify.app/" target="_blank">
+              <img className="cardImage" src={Shop} alt="" />
+            </a>
             <h4 className="cardTitle">Shop</h4>
             <p className="cardDetail">
               This shop app was a project I worked on while taking my first
@@ -56,7 +68,9 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <button className="projectBtn">click to see more </button>
+        <a href="https://github.com/chidieb11?tab=repositories" target="_blank">
+          <button className="projectBtn">click to see more </button>
+        </a>
       </div>
       <Footer />
     </div>

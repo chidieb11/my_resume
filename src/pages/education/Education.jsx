@@ -21,19 +21,31 @@ const Education = () => {
               I graduated recently from the University of Nigeria with a
               bachelor's degree in Mathematics.
             </p>
-            <img src={UnnBadge} alt="" className="unnBadge" />
+            <a href="https://www.unn.edu.ng/" target="_blank">
+              <img src={UnnBadge} alt="" className="unnBadge" />
+            </a>
           </div>
         </div>
 
         <div className="eduSection">
           <div className="sectionTitle">Online Qualifications 🏹</div>
           <div className="sectionCard">
-            <img
-              src={Freecodecamp}
-              alt=""
-              className="educationImages freecodecamp"
-            />
-            <img src={Udemy} alt="" className="educationImages udemy" />
+            <a
+              href="https://www.freecodecamp.org/certification/fcccf17d0da-32b0-4f87-ae63-5e9807e5d4fb/responsive-web-design"
+              target="_blank"
+            >
+              <img
+                src={Freecodecamp}
+                alt=""
+                className="educationImages freecodecamp"
+              />
+            </a>
+            <a
+              href="https://www.udemy.com/certificate/UC-bbbda3f6-b78f-4e79-913c-6d671d22fcfe/"
+              target="_blank"
+            >
+              <img src={Udemy} alt="" className="educationImages udemy" />
+            </a>
           </div>
         </div>
       </div>
