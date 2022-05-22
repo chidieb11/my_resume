@@ -19,7 +19,11 @@
 }
 
 .frontendHeader {
-  font-size: 100px;
+  font-size: 60px;
+}
+
+.frontendDetails {
+  font-size: 30px;
 }
 
 .details {
@@ -61,13 +65,13 @@
   }
 
   .frontendHeader {
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 10px;
   }
 
   .frontendDetails {
     display: block;
-    font-size: 30px;
+    font-size: 16px;
   }
 
   .frontendImage {

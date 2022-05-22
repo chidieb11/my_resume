@@ -10,11 +10,12 @@
 }
 
 .backendHeader {
-  font-size: 100px;
+  font-size: 60px;
 }
 
 .backendDetails {
   margin-bottom: 20px;
+  font-size: 30px;
 }
 
 .backendImage {
@@ -48,13 +49,12 @@
     flex-direction: column-reverse;
   }
   .backendHeader {
-    font-size: 50px;
-    text-align: center;
+    font-size: 40px;
     margin-top: 30px;
   }
 
   .backendDetails {
-    font-size: 30px;
+    font-size: 16px;
   }
 
   .backendImage {

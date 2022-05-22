@@ -14,11 +14,16 @@
 }
 
 .experienceHeader {
-  font-size: 100px;
+  font-size: 60px;
+}
+
+.experienceSubHeader {
+  font-size: 40px;
 }
 
 .experienceDetails {
   margin-bottom: 20px;
+  font-size: 20px;
 }
 
 .contactSocials i {
@@ -34,6 +39,7 @@
   cursor: pointer;
   background: none;
   font-weight: 600;
+  margin-bottom: 200px;
 }
 
 /* Animation */
@@ -68,19 +74,20 @@
   }
 
   .experienceHeader {
-    font-size: 50px;
-    text-align: center;
+    font-size: 40px;
+    margin-left: 80px;
   }
 
   .experienceSubHeader {
     font-weight: 400;
-    text-align: center;
+    margin-left: 80px;
     margin-bottom: 0;
+    font-size: 16px;
   }
 
   .experienceDetails {
     display: block;
-    font-size: 30px;
+    font-size: 13px;
     padding: 40px;
   }
 

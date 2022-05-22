@@ -10,7 +10,7 @@
 }
 
 .contactInfo {
-  font-size: 45px;
+  font-size: 30px;
 }
 
 .contactHeader {
@@ -20,6 +20,7 @@
 
 .contactDetails {
   margin-bottom: 20px;
+  font-size: 30px;
 }
 
 .contactSocials i {
@@ -93,13 +94,13 @@
   }
 
   .contactHeader {
-    font-size: 50px;
-    text-align: center;
+    font-size: 40px;
+    margin-left: 30px;
   }
 
   .contactDetails {
     display: block;
-    font-size: 30px;
+    font-size: 16px;
     padding: 40px;
   }
 
