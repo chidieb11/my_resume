@@ -14,11 +14,7 @@ const Projects = () => {
       <Navbar />
       <div className="projectContainer scale-in-center">
         <div className="projectMain ">
-          <img
-            className="projectImage"
-            src={ProjectImage}
-            alt="project image"
-          />
+          <img className="projectImage" src={ProjectImage} alt="project pic" />
           <div className="projectDetails">
             <h3 className="projectTitle">Projects 📽️</h3>
             <p className="projectBody">
@@ -34,6 +30,7 @@ const Projects = () => {
             <a
               href="https://chidieb11.github.io/Product_landing_page/"
               target="_blank"
+              rel="noreferrer"
             >
               <img className="cardImage" src={Product} alt="" />
             </a>
@@ -47,6 +44,7 @@ const Projects = () => {
             <a
               href="https://chidieb11.github.io/genesysPortfolioPage/public/index.html"
               target="_blank"
+              rel="noreferrer"
             >
               <img className="cardImage" src={Personal} alt="" />
             </a>
@@ -58,7 +56,11 @@ const Projects = () => {
             </p>
           </div>
           <div className="card">
-            <a href="https://neon-granita-f09293.netlify.app/" target="_blank">
+            <a
+              href="https://neon-granita-f09293.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="cardImage" src={Shop} alt="" />
             </a>
             <h4 className="cardTitle">Shop</h4>
@@ -68,7 +70,11 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <a href="https://github.com/chidieb11?tab=repositories" target="_blank">
+        <a
+          href="https://github.com/chidieb11?tab=repositories"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button className="projectBtn">click to see more </button>
         </a>
       </div>

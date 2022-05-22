@@ -21,7 +21,7 @@ const Education = () => {
               I graduated recently from the University of Nigeria with a
               bachelor's degree in Mathematics.
             </p>
-            <a href="https://www.unn.edu.ng/" target="_blank">
+            <a href="https://www.unn.edu.ng/" target="_blank" rel="noreferrer">
               <img src={UnnBadge} alt="" className="unnBadge" />
             </a>
           </div>
@@ -33,6 +33,7 @@ const Education = () => {
             <a
               href="https://www.freecodecamp.org/certification/fcccf17d0da-32b0-4f87-ae63-5e9807e5d4fb/responsive-web-design"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src={Freecodecamp}
@@ -43,6 +44,7 @@ const Education = () => {
             <a
               href="https://www.udemy.com/certificate/UC-bbbda3f6-b78f-4e79-913c-6d671d22fcfe/"
               target="_blank"
+              rel="noreferrer"
             >
               <img src={Udemy} alt="" className="educationImages udemy" />
             </a>

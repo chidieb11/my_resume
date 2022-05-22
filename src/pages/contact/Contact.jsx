@@ -20,30 +20,41 @@ const Contact = () => {
             JavaScript, React, Node, and Opensource Development.
           </p>
           <div className="contactSocials">
-            <a href="https://twitter.com/weird_codes" target="_blank">
+            <a
+              href="https://twitter.com/weird_codes"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i class="fa-brands fa-twitter"></i>
             </a>
-            <a href="https://github.com/chidieb11" target="_blank">
+            <a
+              href="https://github.com/chidieb11"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i class="fa-brands fa-github"></i>
             </a>
-            <a href="https://mail.google.com" target="_blank">
+            <a href="https://mail.google.com" target="_blank" rel="noreferrer">
               <i class="fa-solid fa-envelope-circle-check"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/chukwu-chidiebere-662a761a9/"
               target="_blank"
+              rel="noreferrer"
             >
               <i class="fa-brands fa-linkedin"></i>
             </a>
             <a
               href="https://web.facebook.com/chukwu.john.39142"
               target="_blank"
+              rel="noreferrer"
             >
               <i class="fa-brands fa-facebook"></i>
             </a>
             <a
               href="https://www.instagram.com/chukwu.john.39142/"
               target="_blank"
+              rel="noreferrer"
             >
               <i class="fa-brands fa-instagram"></i>
             </a>
@@ -51,6 +62,7 @@ const Contact = () => {
           <a
             href="https://docs.google.com/document/d/1h3MJ6sq-PozX1v29WUUxHBmgIoFNrxqKkuOsxiXyUfY/edit"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="contactBtn">See My Resume 📰</button>
           </a>
@@ -68,6 +80,7 @@ const Contact = () => {
           <a
             href="https://dev.to/chidieb11/my-journey-so-far-on-learning-to-write-the-mern-stack-50b5"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="contactBtn ssecondBtn">Visit My Blog 🥰</button>
           </a>

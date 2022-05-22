@@ -22,7 +22,11 @@ const Experience = () => {
             testing before they are deployed to production.
           </p>
           <div className="experienceImage">
-            <a href="https://www.byteworks.com.ng/#byteone" target="_blank">
+            <a
+              href="https://www.byteworks.com.ng/#byteone"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="byteworks" src={Byteworks} alt="" />
             </a>
           </div>
